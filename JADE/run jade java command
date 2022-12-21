@@ -1,0 +1,7 @@
+    RUN WITH A SINGLE CLIENT
+javac -cp JADE/supermarket-jade/lib/jade.jar:. -d classes $(find JADE/supermarket-jade/src/* | grep .java) && java -cp JADE/supermarket-jade/lib/jade.jar:classes jade.Boot -agents "cashier:agents.AgentCashier;clerk:agents.AgentClerk;client:agents.AgentClient(5)"
+
+
+    RUN WITH 3 CLIENT
+javac -cp JADE/supermarket-jade/lib/jade.jar:. -d classes $(find JADE/supermarket-jade/src/* | grep .java) && java -cp JADE/supermarket-jade/lib/jade.jar:classes jade.Boot -agents "cashier:agents.AgentCashier;clerk:agents.AgentClerk;client:agents.AgentClient(5);client2:agents.AgentClient(2);client3:agents.AgentClient(15)"
+

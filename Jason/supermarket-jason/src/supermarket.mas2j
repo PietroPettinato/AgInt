@@ -1,0 +1,15 @@
+/* Jason Project */
+
+MAS supermarket {
+
+    infrastructure: Centralised
+
+    agents:
+        agent_client;
+
+		agent_clerk;
+
+        agent_cashier;
+
+}
+
