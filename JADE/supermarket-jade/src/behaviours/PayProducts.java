@@ -43,9 +43,4 @@ public class PayProducts extends AchieveREInitiator {
         System.out.println(myAgent.getLocalName() + ": Retring to pay products");
     }
 
-    // TODO implementare il Request Interaction Protocol, o in alternativa fare uno scambio di messaggi con
-    //  Client:voglio pagare n prodotti,
-    //  Cashier: ok...fatto,
-    //  Client:grazie, ciao
-    // protected void handle(RunnableChangedEvent rce) {}
 }
